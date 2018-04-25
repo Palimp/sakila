@@ -1,6 +1,3 @@
-<?php
-include_once "funciones.php";
-?>
 <!DOCTYPE html>
 
 <html>
@@ -12,6 +9,7 @@ include_once "funciones.php";
     </head>
     <body>
         <div class="container">
+            <h1>ACTORES</h1>
             <?php
             include "sakila.php";
             $sakila = new Sakila();
