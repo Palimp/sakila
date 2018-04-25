@@ -38,6 +38,6 @@ include_once "funciones.php";
                 <input class="btn btn-success" type="submit" name="cambiar" value="Cambiar">
             </form>
         </div>
-        <!--Teste git Caroline-->
+        <!--Teste github Caroline-->
     </body>
 </html>
