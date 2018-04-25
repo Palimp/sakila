@@ -15,6 +15,7 @@
             $sakila = new Sakila();
 
             //Hola que tal??
+            //por aquí bien, y tu?
 
             $nuevo = filter_input(INPUT_GET, 'nuevo');
             $first_name = filter_input(INPUT_GET, 'first_name');
