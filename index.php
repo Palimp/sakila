@@ -9,11 +9,13 @@
     </head>
     <body>
         <div class="container">
+            <h1>ACTORES</h1>
             <?php
             include "sakila.php";
             $sakila = new Sakila();
 
-            
+            //Hola que tal??
+            //por aquí bien, y tu?
 
             $nuevo = filter_input(INPUT_GET, 'nuevo');
             $first_name = filter_input(INPUT_GET, 'first_name');
