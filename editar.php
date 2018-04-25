@@ -13,6 +13,7 @@
             include "sakila.php";
             $sakila = new Sakila();
 
+            
 
             $actor_id = filter_input(INPUT_GET, 'actor_id');
 
@@ -29,6 +30,10 @@
                     <input type="text" class="form-control" name="first_name" value="<?= $actor['first_name'] ?>">
                 </div>
                 <div class="form-group">
+                    <label for="last_name">Apellidos:</label>
+                    <input type="text" class="form-control" name="last_name" value="<?= $actor['last_name'] ?>">
+                </div>
+                    <div class="form-group">
                     <label for="last_name">Apellidos:</label>
                     <input type="text" class="form-control" name="last_name" value="<?= $actor['last_name'] ?>">
                 </div>
