@@ -20,6 +20,9 @@ class Sakila {
         }
     }
 
+    function pepe(){
+        return 3;
+    }
     function getActors() {
         $sql = "select * from actor where 1=1";
         $query = $this->conn->query($sql);
